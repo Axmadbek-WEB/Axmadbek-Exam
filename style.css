@@ -1,0 +1,126 @@
+* {    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(90deg, #212529, #FFFFFF),
+    linear-gradient(90deg, #FFFFFF, #212529);
+}
+
+.hero_img {
+    text-align: center;
+    animation: img2 3s infinite;
+}
+
+.ota_search {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 400px;
+}
+
+#qidiruv{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+}
+@keyframes img2{
+    0%{filter: drop-shadow(0px 0px 0px red);}
+    25%{filter: drop-shadow(0px 0px 10px rgb(0, 255, 242));}
+    50%{filter: drop-shadow(0px 0px 15px rgb(0, 255, 242));}
+    100%{filter: drop-shadow(0px 0px 50px rgb(81, 0, 255));}
+  }
+.btn5{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.bola_card {
+    width: 230px;
+    height: 330px;
+    background-color: #333333;
+    box-shadow: 0px 0px 15px 0px #00000080;
+    border-radius: 10px;
+}
+
+.movie {
+    padding-left: 9px;
+    padding-top: 10px;
+}
+
+.bola_card h4 {
+    font-size: 18.7px;
+    font-weight: 700;
+    line-height: 21.5px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ota_p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-top: 10px;
+}
+
+.bola_card p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 10px;
+}
+
+.bola_card button {
+    font-family: Arial;
+    font-size: 13.3px;
+    font-weight: 400;
+    line-height: 15.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    background-color: green;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.select {
+    width: 100px;
+    height: 29px;
+    border-radius: 7px;
+}
+#ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
